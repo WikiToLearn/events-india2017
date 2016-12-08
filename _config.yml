@@ -1,0 +1,20 @@
+# Site settings
+title: WikiToLearn India Conference
+email: srijan@wikitolearn.org
+description:  # this means to ignore newlines until "baseurl:"
+  WikiToLearnConf India is a global event comprising WikiToLearn, Mediawiki and KDE developers from all over India and world.
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: wikitolearn
+github_username:  wikitolearn
+google_analytics_tracking_id:  #needs to be updated
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
