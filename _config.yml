@@ -8,7 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: wikitolearn
 github_username:  wikitolearn
-google_analytics_tracking_id:  #needs to be updated
+google_analytics_tracking_id: UA-88740211-1 #needs to be updated
 
 # Build settings
 markdown: kramdown
