@@ -143,7 +143,7 @@ a:focus {
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
-        background: 0 0;
+        background: #292C33;
         -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
         transition: background .5s ease-in-out, padding .5s ease-in-out;
@@ -164,9 +164,24 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding-top: 20px;
+    height: 100%;
     /*text-align: center;*/
     color: #fff;
+}
+.intro-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/images/pattern.png);
+    background-repeat: repeat;
+    z-index: 1;
+}
+.intro-body {
+    line-height: 0px;
+    font-size: 0;
+    display: table-cell;
+    vertical-align: middle;
     background: url(../../assets/images/bg.jpg) no-repeat bottom center scroll #292c33;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -174,21 +189,10 @@ a:focus {
     -o-background-size: cover;
     z-index: 1;
 }
-.intro-overlay {
-    width: 100%;
-    height: auto;
-    background-image: url(../../assets/images/pattern.png);
-    background-repeat: repeat;
-    z-index: 2;
-}
-.intro-body {
-    display: table-cell;
-    vertical-align: middle;
-}
 
 .brand-heading {
+    padding-top: 120px;
     font-size: 58px;
-    padding-top: 12%;
 }
 
 .white {
@@ -198,6 +202,7 @@ a:focus {
 }
 
 .intro-text {
+    padding-top: 50px;
     font-size: 18px;
 }
 
@@ -690,6 +695,7 @@ p.copyright {
 
 }
 .navbar-brand-wtl {
+    margin-left: 20px;
     transition: all 1s ease-in-out;
 }
 .navbar-brand:focus {
