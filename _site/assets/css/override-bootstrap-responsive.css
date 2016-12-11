@@ -52,9 +52,20 @@
 }
 
 .navbar-inverse .navbar-nav>li>a {
-  color: #c1c1c1;
+  	color: #fff;
+	font-size: 13px;
+	font-weight: 300;
+
 }
 
+.btn {
+    transition: all 0.3s ease-in-out;
+    margin-right: 2px;
+}
+.btn:hover {
+    transform: scale(1.05);
+
+}
 .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
   margin-top: 8px;
 }
