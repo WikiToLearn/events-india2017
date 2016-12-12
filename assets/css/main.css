@@ -977,3 +977,218 @@ text-align: center;
     padding-left: 20px;
     margin-left: 15px;
 }
+
+/* Logo stuff */
+
+.logomain {
+    margin-top: -100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo-container {
+    height: 30rem;
+    width: 30rem;
+    position: relative;
+}
+.logo-container div {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.one {
+    -webkit-animation:pulse;
+    -o-animation:pulse;
+    animation:pulse 1.5s infinite;
+    background: #83001F;
+    height: 5%;
+    width: 5%;
+    top: 10.5%;
+    left: 27.125%;
+}
+
+.two {
+    background: #83001F;
+    height: 9%;
+    width: 9%;
+    top: 4.5%;
+    left: 45.5%;
+}
+
+.three {
+    background: #83001F;
+    height: 5%;
+    width: 5%;
+    top: 10.5%;
+    left: 68.125%;
+}
+
+.four {
+    background: #83001F;
+    height: 5%;
+    width: 5%;
+    top: 28.75%;
+    left: 9%;
+}
+
+.five {
+    background: #db3e14;
+    height: 11%;
+    width: 11%;
+    top: 25.125%;
+    left: 23.5%;
+}
+
+.six {
+    background: #db3e14;
+    height: 14%;
+    width: 14%;
+    top: 20%;
+    left: 43%;
+}
+
+.seven {
+    background: #db3e14;
+    height: 11%;
+    width: 11%;
+    top: 25.125%;
+    left: 65.125%;
+}
+
+.eight {
+    background: #83001F;
+    height: 5%;
+    width: 5%;
+    top: 28.75%;
+    left: 85.875%;
+}
+
+.nine {
+    background: #ffbc31;
+    height: 9%;
+    width: 9%;
+    top: 45.25%;
+    left: 4.5%;
+}
+
+.ten {
+    background: #ffbc31;
+    height: 14%;
+    width: 14%;
+    top: 42.875%;
+    left: 18.375%;
+}
+
+.eleven {
+    background: #ffbc31;
+    height: 21%;
+    width: 21%;
+    top: 39.125%;
+    left: 39.625%;
+}
+
+.twelve {
+    background: #ffbc31;
+    height: 14%;
+    width: 14%;
+    top: 42.875%;
+    left: 67.25%;
+}
+
+.thirteen {
+    background: #ffbc31;
+    height: 9%;
+    width: 9%;
+    top: 45.25%;
+    left: 86.75%;
+}
+
+.fourteen {
+    background: #00613a;
+    height: 5%;
+    width: 5%;
+    top: 66.875%;
+    left: 9%;
+}
+
+.fifteen {
+    background: #69b140;
+    height: 11%;
+    width: 11%;
+    top: 65.5%;
+    left: 23.5%;
+}
+
+.sixteen {
+    background: #69b140;
+    height: 14%;
+    width: 14%;
+    top: 65.375%;
+    left: 43%;
+}
+
+.seventeen {
+    background: #69b140;
+    height: 11%;
+    width: 11%;
+    top: 65.5%;
+    left: 65.25%;
+}
+
+.eighteen {
+    background: #00613a;
+    height: 5%;
+    width: 5%;
+    top: 66.875%;
+    left: 86.875%;
+}
+
+.nineteen {
+    background: #00613a;
+    height: 5%;
+    width: 5%;
+    top: 85.125%;
+    left: 27.125%;
+}
+
+.twenty {
+    background: #00613a;
+    height: 9%;
+    width: 9%;
+    top: 88%;
+    left: 45.5%;
+    animation: pulse;
+}
+
+.twentyone {
+    background: #00613a;
+    height: 5%;
+    width: 5%;
+    top: 85.125%;
+    left: 68.125%;
+}
+@-webkit-keyframes pulse {
+    0% { -webkit-transform: scale(1); }
+    50% { -webkit-transform: scale(1.1); }
+    100% { -webkit-transform: scale(1); }
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+.pulsate {
+    -webkit-animation: pulse 1s infinite;
+}
+pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
