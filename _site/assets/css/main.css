@@ -171,6 +171,7 @@ a:focus {
 }
 .intro-overlay {
     position: relative;
+    padding-bottom: 100px;
     width: 100%;
     height: 100%;
     background-image: url(../../assets/images/pattern.png);
@@ -873,6 +874,7 @@ p.sponsor-paragraph {
     font-size: 16px;
     line-height: 22px;
     text-align: justify;
+    margin-right: 10px;
 }
 
 h4.normal-transform
